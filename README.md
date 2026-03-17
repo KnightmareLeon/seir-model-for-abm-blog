@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository is for storing the NetLogo exported html file used in the ABM Blog which serves as our homeworkd in the course CSC133 - Modelling and Simulation.
+This repository is for storing the NetLogo exported html file used in the ABM Blog which serves as our homework in the course CSC133 - Modelling and Simulation.
 
 ![seir-mode-sc.png](assets/seir_model_sc.png)
 
