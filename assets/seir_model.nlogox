@@ -129,39 +129,21 @@ end]]></code>
   </widgets>
   <info>## WHAT IS IT?
 
-(a general understanding of what the model is trying to show or explain)
+An agent based model based on an SEIR (Susceptible-Exposed-Infected-Recovered) model.
 
 ## HOW IT WORKS
 
-(what rules the agents use to create the overall behavior of the model)
+Initialized with the maximum number of turtles with one turtle having the virus. Each turtle will move randomly in a closed space, if turtles interact with an infected turtle, the virus is passed to them. Initially, the virus will be in a latent state, and a turtle will be infected after the incubation period is finished. It will either be a reported or unreported infection based on the reported probability ratio. Later on the agent will either recover or be deceased based on the set parameters.
 
 ## HOW TO USE IT
 
-(how to use the model, including a description of each of the items in the Interface tab)
-
-## THINGS TO NOTICE
-
-(suggested things for the user to notice while running the model)
-
-## THINGS TO TRY
-
-(suggested things for the user to try to do (move sliders, switches, etc.) with the model)
-
-## EXTENDING THE MODEL
-
-(suggested things to add or change in the Code tab to make the model more complicated, detailed, accurate, etc.)
-
-## NETLOGO FEATURES
-
-(interesting or unusual features of NetLogo that the model uses, particularly in the Code tab; or where workarounds were needed for missing features)
-
-## RELATED MODELS
-
-(models in the NetLogo Models Library and elsewhere which are of related interest)
+Please check the test settings page for the explanation of each parameter.
 
 ## CREDITS AND REFERENCES
 
-(a reference to the model's URL on the web if it has one, as well as any other necessary credits, citations, and links)</info>
+This model is based on the equation-based SEIR models of the paper "Analyzing the dynamics of COVID-19 transmission in select regions of the Philippines: A modeling approach to assess the impact of various tiers of community quarantines". 
+
+Link to the paper: https://www.cell.com/heliyon/fulltext/S2405-8440(24)15361-3</info>
   <turtleShapes>
     <shape name="default" rotatable="true" editableColorIndex="0">
       <polygon color="-1920102913" filled="true" marked="true">
