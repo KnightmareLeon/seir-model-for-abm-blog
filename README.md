@@ -13,4 +13,4 @@ This repository is for storing the NetLogo exported html file used in the ABM Bl
 - Zjann Henry Cuajotor
 
 ## ABM Blog:
-[Link to our ABM Blog](https://sites.google.com/view/blkz-modsim/home?authuser=0)
+[Link to our ABM Blog](https://sites.google.com/view/blkz-modsim/home)
